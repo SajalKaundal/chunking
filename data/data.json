@@ -1,0 +1,4210 @@
+[
+  {
+    "title": "System requirements",
+    "level": 2,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Before you begin, make sure your development environment meets the following requirements:",
+            "position": {
+              "start": { "line": 44, "column": 1, "offset": 1121 },
+              "end": { "line": 44, "column": 91, "offset": 1211 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 44, "column": 1, "offset": 1121 },
+          "end": { "line": 44, "column": 91, "offset": 1211 }
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Minimum Node.js version: ",
+                    "position": {
+                      "start": { "line": 46, "column": 3, "offset": 1215 },
+                      "end": { "line": 46, "column": 28, "offset": 1240 }
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "title": null,
+                    "url": "https://nodejs.org/",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "20.9",
+                        "position": {
+                          "start": { "line": 46, "column": 29, "offset": 1241 },
+                          "end": { "line": 46, "column": 33, "offset": 1245 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 46, "column": 28, "offset": 1240 },
+                      "end": { "line": 46, "column": 55, "offset": 1267 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 46, "column": 3, "offset": 1215 },
+                  "end": { "line": 46, "column": 55, "offset": 1267 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 46, "column": 1, "offset": 1213 },
+              "end": { "line": 46, "column": 55, "offset": 1267 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Operatingsystems: macOS, Windows (including WSL), and Linux.",
+                    "position": {
+                      "start": { "line": 47, "column": 3, "offset": 1270 },
+                      "end": { "line": 47, "column": 64, "offset": 1331 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 47, "column": 3, "offset": 1270 },
+                  "end": { "line": 47, "column": 64, "offset": 1331 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 47, "column": 1, "offset": 1268 },
+              "end": { "line": 47, "column": 64, "offset": 1331 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 46, "column": 1, "offset": 1213 },
+          "end": { "line": 47, "column": 64, "offset": 1331 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Supported browsers",
+    "level": 2,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Next.js supports modern browsers with zero configuration.",
+            "position": {
+              "start": { "line": 51, "column": 1, "offset": 1356 },
+              "end": { "line": 51, "column": 58, "offset": 1413 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 51, "column": 1, "offset": 1356 },
+          "end": { "line": 51, "column": 58, "offset": 1413 }
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Chrome 111+",
+                    "position": {
+                      "start": { "line": 53, "column": 3, "offset": 1417 },
+                      "end": { "line": 53, "column": 14, "offset": 1428 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 53, "column": 3, "offset": 1417 },
+                  "end": { "line": 53, "column": 14, "offset": 1428 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 53, "column": 1, "offset": 1415 },
+              "end": { "line": 53, "column": 14, "offset": 1428 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Edge 111+",
+                    "position": {
+                      "start": { "line": 54, "column": 3, "offset": 1431 },
+                      "end": { "line": 54, "column": 12, "offset": 1440 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 54, "column": 3, "offset": 1431 },
+                  "end": { "line": 54, "column": 12, "offset": 1440 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 54, "column": 1, "offset": 1429 },
+              "end": { "line": 54, "column": 12, "offset": 1440 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Firefox 111+",
+                    "position": {
+                      "start": { "line": 55, "column": 3, "offset": 1443 },
+                      "end": { "line": 55, "column": 15, "offset": 1455 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 55, "column": 3, "offset": 1443 },
+                  "end": { "line": 55, "column": 15, "offset": 1455 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 55, "column": 1, "offset": 1441 },
+              "end": { "line": 55, "column": 15, "offset": 1455 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Safari 16.4+",
+                    "position": {
+                      "start": { "line": 56, "column": 3, "offset": 1458 },
+                      "end": { "line": 56, "column": 15, "offset": 1470 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 56, "column": 3, "offset": 1458 },
+                  "end": { "line": 56, "column": 15, "offset": 1470 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 56, "column": 1, "offset": 1456 },
+              "end": { "line": 56, "column": 15, "offset": 1470 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 53, "column": 1, "offset": 1415 },
+          "end": { "line": 56, "column": 15, "offset": 1470 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Learn more about ",
+            "position": {
+              "start": { "line": 58, "column": 1, "offset": 1472 },
+              "end": { "line": 58, "column": 18, "offset": 1489 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/architecture/supported-browsers",
+            "children": [
+              {
+                "type": "text",
+                "value": "browser support",
+                "position": {
+                  "start": { "line": 58, "column": 19, "offset": 1490 },
+                  "end": { "line": 58, "column": 34, "offset": 1505 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 58, "column": 18, "offset": 1489 },
+              "end": { "line": 58, "column": 74, "offset": 1545 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", including how to configure polyfills and target specific browsers.",
+            "position": {
+              "start": { "line": 58, "column": 74, "offset": 1545 },
+              "end": { "line": 58, "column": 142, "offset": 1613 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 58, "column": 1, "offset": 1472 },
+          "end": { "line": 58, "column": 142, "offset": 1613 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Create with the CLI",
+    "level": 2,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "The quickest way to create a new Next.js app is using ",
+            "position": {
+              "start": { "line": 62, "column": 1, "offset": 1639 },
+              "end": { "line": 62, "column": 55, "offset": 1693 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/api-reference/cli/create-next-app",
+            "children": [
+              {
+                "type": "inlineCode",
+                "value": "create-next-app",
+                "position": {
+                  "start": { "line": 62, "column": 56, "offset": 1694 },
+                  "end": { "line": 62, "column": 73, "offset": 1711 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 62, "column": 55, "offset": 1693 },
+              "end": { "line": 62, "column": 119, "offset": 1757 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", which sets up everything automatically for you. To create a project, run:",
+            "position": {
+              "start": { "line": 62, "column": 119, "offset": 1757 },
+              "end": { "line": 62, "column": 194, "offset": 1832 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 62, "column": 1, "offset": 1639 },
+          "end": { "line": 62, "column": 194, "offset": 1832 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"pnpm\"",
+        "value": "pnpm create next-app",
+        "position": {
+          "start": { "line": 64, "column": 1, "offset": 1834 },
+          "end": { "line": 66, "column": 4, "offset": 1881 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"npm\"",
+        "value": "npx create-next-app@latest",
+        "position": {
+          "start": { "line": 68, "column": 1, "offset": 1883 },
+          "end": { "line": 70, "column": 4, "offset": 1935 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"yarn\"",
+        "value": "yarn create next-app",
+        "position": {
+          "start": { "line": 72, "column": 1, "offset": 1937 },
+          "end": { "line": 74, "column": 4, "offset": 1984 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"bun\"",
+        "value": "bun create next-app",
+        "position": {
+          "start": { "line": 76, "column": 1, "offset": 1986 },
+          "end": { "line": 78, "column": 4, "offset": 2031 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "On installation, you'll see the following prompts:",
+            "position": {
+              "start": { "line": 80, "column": 1, "offset": 2033 },
+              "end": { "line": 80, "column": 51, "offset": 2083 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 80, "column": 1, "offset": 2033 },
+          "end": { "line": 80, "column": 51, "offset": 2083 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "txt",
+        "meta": "filename=\"Terminal\"",
+        "value": "What is your project named? my-app\nWould you like to use the recommended Next.js defaults?\n    Yes, use recommended defaults - TypeScript, ESLint, Tailwind CSS, App Router, AGENTS.md\n    No, reuse previous settings\n    No, customize settings - Choose your own preferences",
+        "position": {
+          "start": { "line": 82, "column": 1, "offset": 2085 },
+          "end": { "line": 88, "column": 4, "offset": 2387 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "If you choose to ",
+            "position": {
+              "start": { "line": 90, "column": 1, "offset": 2389 },
+              "end": { "line": 90, "column": 18, "offset": 2406 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "customize settings",
+            "position": {
+              "start": { "line": 90, "column": 18, "offset": 2406 },
+              "end": { "line": 90, "column": 38, "offset": 2426 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", you'll see the following prompts:",
+            "position": {
+              "start": { "line": 90, "column": 38, "offset": 2426 },
+              "end": { "line": 90, "column": 73, "offset": 2461 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 90, "column": 1, "offset": 2389 },
+          "end": { "line": 90, "column": 73, "offset": 2461 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "txt",
+        "meta": "filename=\"Terminal\"",
+        "value": "Would you like to use TypeScript? No / Yes\nWhich linter would you like to use? ESLint / Biome / None\nWould you like to use React Compiler? No / Yes\nWould you like to use Tailwind CSS? No / Yes\nWould you like your code inside a `src/` directory? No / Yes\nWould you like to use App Router? (recommended) No / Yes\nWould you like to customize the import alias (`@/*` by default)? No / Yes\nWhat import alias would you like configured? @/*\nWould you like to include AGENTS.md to guide coding agents to write up-to-date Next.js code? No / Yes",
+        "position": {
+          "start": { "line": 92, "column": 1, "offset": 2463 },
+          "end": { "line": 102, "column": 4, "offset": 3029 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "After the prompts, ",
+            "position": {
+              "start": { "line": 104, "column": 1, "offset": 3031 },
+              "end": { "line": 104, "column": 20, "offset": 3050 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/api-reference/cli/create-next-app",
+            "children": [
+              {
+                "type": "inlineCode",
+                "value": "create-next-app",
+                "position": {
+                  "start": { "line": 104, "column": 21, "offset": 3051 },
+                  "end": { "line": 104, "column": 38, "offset": 3068 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 104, "column": 20, "offset": 3050 },
+              "end": { "line": 104, "column": 84, "offset": 3114 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " will create a folder with your project name and install the required dependencies.",
+            "position": {
+              "start": { "line": 104, "column": 84, "offset": 3114 },
+              "end": { "line": 104, "column": 167, "offset": 3197 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 104, "column": 1, "offset": 3031 },
+          "end": { "line": 104, "column": 167, "offset": 3197 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Manual installation",
+    "level": 2,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "To manually create a new Next.js app, install the required packages:",
+            "position": {
+              "start": { "line": 108, "column": 1, "offset": 3223 },
+              "end": { "line": 108, "column": 69, "offset": 3291 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 108, "column": 1, "offset": 3223 },
+          "end": { "line": 108, "column": 69, "offset": 3291 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"pnpm\"",
+        "value": "pnpm i next@latest react@latest react-dom@latest",
+        "position": {
+          "start": { "line": 110, "column": 1, "offset": 3293 },
+          "end": { "line": 112, "column": 4, "offset": 3368 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"npm\"",
+        "value": "npm i next@latest react@latest react-dom@latest",
+        "position": {
+          "start": { "line": 114, "column": 1, "offset": 3370 },
+          "end": { "line": 116, "column": 4, "offset": 3443 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"yarn\"",
+        "value": "yarn add next@latest react@latest react-dom@latest",
+        "position": {
+          "start": { "line": 118, "column": 1, "offset": 3445 },
+          "end": { "line": 120, "column": 4, "offset": 3522 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"bun\"",
+        "value": "bun add next@latest react@latest react-dom@latest",
+        "position": {
+          "start": { "line": 122, "column": 1, "offset": 3524 },
+          "end": { "line": 124, "column": 4, "offset": 3599 }
+        }
+      },
+      {
+        "type": "blockquote",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Good to know",
+                    "position": {
+                      "start": { "line": 126, "column": 5, "offset": 3605 },
+                      "end": { "line": 126, "column": 17, "offset": 3617 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 126, "column": 3, "offset": 3603 },
+                  "end": { "line": 126, "column": 19, "offset": 3619 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ":",
+                "position": {
+                  "start": { "line": 126, "column": 19, "offset": 3619 },
+                  "end": { "line": 126, "column": 20, "offset": 3620 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 126, "column": 3, "offset": 3603 },
+              "end": { "line": 126, "column": 20, "offset": 3620 }
+            }
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "start": null,
+            "spread": false,
+            "children": [
+              {
+                "type": "listItem",
+                "spread": false,
+                "checked": null,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "The ",
+                        "position": {
+                          "start": { "line": 128, "column": 5, "offset": 3627 },
+                          "end": { "line": 128, "column": 9, "offset": 3631 }
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "App Router",
+                        "position": {
+                          "start": { "line": 128, "column": 9, "offset": 3631 },
+                          "end": { "line": 128, "column": 21, "offset": 3643 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " uses ",
+                        "position": {
+                          "start": {
+                            "line": 128,
+                            "column": 21,
+                            "offset": 3643
+                          },
+                          "end": { "line": 128, "column": 27, "offset": 3649 }
+                        }
+                      },
+                      {
+                        "type": "link",
+                        "title": null,
+                        "url": "https://react.dev/blog/2023/05/03/react-canaries",
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "React canary releases",
+                            "position": {
+                              "start": {
+                                "line": 128,
+                                "column": 28,
+                                "offset": 3650
+                              },
+                              "end": {
+                                "line": 128,
+                                "column": 49,
+                                "offset": 3671
+                              }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 128,
+                            "column": 27,
+                            "offset": 3649
+                          },
+                          "end": { "line": 128, "column": 100, "offset": 3722 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " built-in, which include all the stable React 19 changes, as well as newer features being validated in frameworks, but you should still declare react and react-dom in package.json for tooling and ecosystem compatibility.",
+                        "position": {
+                          "start": {
+                            "line": 128,
+                            "column": 100,
+                            "offset": 3722
+                          },
+                          "end": { "line": 128, "column": 320, "offset": 3942 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 128, "column": 5, "offset": 3627 },
+                      "end": { "line": 128, "column": 320, "offset": 3942 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 128, "column": 3, "offset": 3625 },
+                  "end": { "line": 128, "column": 320, "offset": 3942 }
+                }
+              },
+              {
+                "type": "listItem",
+                "spread": false,
+                "checked": null,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "The ",
+                        "position": {
+                          "start": { "line": 129, "column": 5, "offset": 3947 },
+                          "end": { "line": 129, "column": 9, "offset": 3951 }
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "Pages Router",
+                        "position": {
+                          "start": { "line": 129, "column": 9, "offset": 3951 },
+                          "end": { "line": 129, "column": 23, "offset": 3965 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " uses the React version from your ",
+                        "position": {
+                          "start": {
+                            "line": 129,
+                            "column": 23,
+                            "offset": 3965
+                          },
+                          "end": { "line": 129, "column": 57, "offset": 3999 }
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "package.json",
+                        "position": {
+                          "start": {
+                            "line": 129,
+                            "column": 57,
+                            "offset": 3999
+                          },
+                          "end": { "line": 129, "column": 71, "offset": 4013 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": ".",
+                        "position": {
+                          "start": {
+                            "line": 129,
+                            "column": 71,
+                            "offset": 4013
+                          },
+                          "end": { "line": 129, "column": 72, "offset": 4014 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 129, "column": 5, "offset": 3947 },
+                      "end": { "line": 129, "column": 72, "offset": 4014 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 129, "column": 3, "offset": 3945 },
+                  "end": { "line": 129, "column": 72, "offset": 4014 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 128, "column": 3, "offset": 3625 },
+              "end": { "line": 129, "column": 72, "offset": 4014 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 126, "column": 1, "offset": 3601 },
+          "end": { "line": 129, "column": 72, "offset": 4014 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Then, add the following scripts to your ",
+            "position": {
+              "start": { "line": 131, "column": 1, "offset": 4016 },
+              "end": { "line": 131, "column": 41, "offset": 4056 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "package.json",
+            "position": {
+              "start": { "line": 131, "column": 41, "offset": 4056 },
+              "end": { "line": 131, "column": 55, "offset": 4070 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " file:",
+            "position": {
+              "start": { "line": 131, "column": 55, "offset": 4070 },
+              "end": { "line": 131, "column": 61, "offset": 4076 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 131, "column": 1, "offset": 4016 },
+          "end": { "line": 131, "column": 61, "offset": 4076 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "json",
+        "meta": "filename=\"package.json\"",
+        "value": "{\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\",\n    \"lint\": \"eslint\",\n    \"lint:fix\": \"eslint --fix\"\n  }\n}",
+        "position": {
+          "start": { "line": 133, "column": 1, "offset": 4078 },
+          "end": { "line": 143, "column": 4, "offset": 4266 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "These scripts refer to the different stages of developing an application:",
+            "position": {
+              "start": { "line": 145, "column": 1, "offset": 4268 },
+              "end": { "line": 145, "column": 74, "offset": 4341 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 145, "column": 1, "offset": 4268 },
+          "end": { "line": 145, "column": 74, "offset": 4341 }
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "inlineCode",
+                    "value": "next dev",
+                    "position": {
+                      "start": { "line": 147, "column": 3, "offset": 4345 },
+                      "end": { "line": 147, "column": 13, "offset": 4355 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ": Starts the development server using Turbopack (default bundler).",
+                    "position": {
+                      "start": { "line": 147, "column": 13, "offset": 4355 },
+                      "end": { "line": 147, "column": 79, "offset": 4421 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 147, "column": 3, "offset": 4345 },
+                  "end": { "line": 147, "column": 79, "offset": 4421 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 147, "column": 1, "offset": 4343 },
+              "end": { "line": 147, "column": 79, "offset": 4421 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "inlineCode",
+                    "value": "next build",
+                    "position": {
+                      "start": { "line": 148, "column": 3, "offset": 4424 },
+                      "end": { "line": 148, "column": 15, "offset": 4436 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ": Builds the application for production.",
+                    "position": {
+                      "start": { "line": 148, "column": 15, "offset": 4436 },
+                      "end": { "line": 148, "column": 55, "offset": 4476 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 148, "column": 3, "offset": 4424 },
+                  "end": { "line": 148, "column": 55, "offset": 4476 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 148, "column": 1, "offset": 4422 },
+              "end": { "line": 148, "column": 55, "offset": 4476 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "inlineCode",
+                    "value": "next start",
+                    "position": {
+                      "start": { "line": 149, "column": 3, "offset": 4479 },
+                      "end": { "line": 149, "column": 15, "offset": 4491 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ": Starts the production server.",
+                    "position": {
+                      "start": { "line": 149, "column": 15, "offset": 4491 },
+                      "end": { "line": 149, "column": 46, "offset": 4522 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 149, "column": 3, "offset": 4479 },
+                  "end": { "line": 149, "column": 46, "offset": 4522 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 149, "column": 1, "offset": 4477 },
+              "end": { "line": 149, "column": 46, "offset": 4522 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "inlineCode",
+                    "value": "eslint",
+                    "position": {
+                      "start": { "line": 150, "column": 3, "offset": 4525 },
+                      "end": { "line": 150, "column": 11, "offset": 4533 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ": Runs ESLint.",
+                    "position": {
+                      "start": { "line": 150, "column": 11, "offset": 4533 },
+                      "end": { "line": 150, "column": 25, "offset": 4547 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 150, "column": 3, "offset": 4525 },
+                  "end": { "line": 150, "column": 25, "offset": 4547 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 150, "column": 1, "offset": 4523 },
+              "end": { "line": 150, "column": 25, "offset": 4547 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 147, "column": 1, "offset": 4343 },
+          "end": { "line": 150, "column": 25, "offset": 4547 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Turbopack is now the default bundler. To use Webpack run ",
+            "position": {
+              "start": { "line": 152, "column": 1, "offset": 4549 },
+              "end": { "line": 152, "column": 58, "offset": 4606 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "next dev --webpack",
+            "position": {
+              "start": { "line": 152, "column": 58, "offset": 4606 },
+              "end": { "line": 152, "column": 78, "offset": 4626 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " or ",
+            "position": {
+              "start": { "line": 152, "column": 78, "offset": 4626 },
+              "end": { "line": 152, "column": 82, "offset": 4630 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "next build --webpack",
+            "position": {
+              "start": { "line": 152, "column": 82, "offset": 4630 },
+              "end": { "line": 152, "column": 104, "offset": 4652 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". See the ",
+            "position": {
+              "start": { "line": 152, "column": 104, "offset": 4652 },
+              "end": { "line": 152, "column": 114, "offset": 4662 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/api-reference/turbopack",
+            "children": [
+              {
+                "type": "text",
+                "value": "Turbopack docs",
+                "position": {
+                  "start": { "line": 152, "column": 115, "offset": 4663 },
+                  "end": { "line": 152, "column": 129, "offset": 4677 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 152, "column": 114, "offset": 4662 },
+              "end": { "line": 152, "column": 165, "offset": 4713 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " for configuration details.",
+            "position": {
+              "start": { "line": 152, "column": 165, "offset": 4713 },
+              "end": { "line": 152, "column": 192, "offset": 4740 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 152, "column": 1, "offset": 4549 },
+          "end": { "line": 152, "column": 192, "offset": 4740 }
+        }
+      },
+      {
+        "type": "mdxJsxFlowElement",
+        "name": "AppOnly",
+        "attributes": [],
+        "children": [
+          {
+            "type": "heading",
+            "depth": 3,
+            "children": [
+              {
+                "type": "text",
+                "value": "Create the ",
+                "position": {
+                  "start": { "line": 156, "column": 5, "offset": 4757 },
+                  "end": { "line": 156, "column": 16, "offset": 4768 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "app",
+                "position": {
+                  "start": { "line": 156, "column": 16, "offset": 4768 },
+                  "end": { "line": 156, "column": 21, "offset": 4773 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " directory",
+                "position": {
+                  "start": { "line": 156, "column": 21, "offset": 4773 },
+                  "end": { "line": 156, "column": 31, "offset": 4783 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 156, "column": 1, "offset": 4753 },
+              "end": { "line": 156, "column": 31, "offset": 4783 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Next.js uses file-system routing, which means the routes in your application are determined by how you structure your files.",
+                "position": {
+                  "start": { "line": 158, "column": 1, "offset": 4785 },
+                  "end": { "line": 158, "column": 125, "offset": 4909 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 158, "column": 1, "offset": 4785 },
+              "end": { "line": 158, "column": 125, "offset": 4909 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Create an ",
+                "position": {
+                  "start": { "line": 160, "column": 1, "offset": 4911 },
+                  "end": { "line": 160, "column": 11, "offset": 4921 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "app",
+                "position": {
+                  "start": { "line": 160, "column": 11, "offset": 4921 },
+                  "end": { "line": 160, "column": 16, "offset": 4926 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " folder. Then, inside ",
+                "position": {
+                  "start": { "line": 160, "column": 16, "offset": 4926 },
+                  "end": { "line": 160, "column": 38, "offset": 4948 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "app",
+                "position": {
+                  "start": { "line": 160, "column": 38, "offset": 4948 },
+                  "end": { "line": 160, "column": 43, "offset": 4953 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ", create a ",
+                "position": {
+                  "start": { "line": 160, "column": 43, "offset": 4953 },
+                  "end": { "line": 160, "column": 54, "offset": 4964 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "layout.tsx",
+                "position": {
+                  "start": { "line": 160, "column": 54, "offset": 4964 },
+                  "end": { "line": 160, "column": 66, "offset": 4976 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " file. This file is the ",
+                "position": {
+                  "start": { "line": 160, "column": 66, "offset": 4976 },
+                  "end": { "line": 160, "column": 90, "offset": 5000 }
+                }
+              },
+              {
+                "type": "link",
+                "title": null,
+                "url": "/docs/app/api-reference/file-conventions/layout#root-layout",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "root layout",
+                    "position": {
+                      "start": { "line": 160, "column": 91, "offset": 5001 },
+                      "end": { "line": 160, "column": 102, "offset": 5012 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 160, "column": 90, "offset": 5000 },
+                  "end": { "line": 160, "column": 164, "offset": 5074 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ". It's required and must contain the ",
+                "position": {
+                  "start": { "line": 160, "column": 164, "offset": 5074 },
+                  "end": { "line": 160, "column": 201, "offset": 5111 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "<html>",
+                "position": {
+                  "start": { "line": 160, "column": 201, "offset": 5111 },
+                  "end": { "line": 160, "column": 209, "offset": 5119 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " and ",
+                "position": {
+                  "start": { "line": 160, "column": 209, "offset": 5119 },
+                  "end": { "line": 160, "column": 214, "offset": 5124 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "<body>",
+                "position": {
+                  "start": { "line": 160, "column": 214, "offset": 5124 },
+                  "end": { "line": 160, "column": 222, "offset": 5132 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " tags.",
+                "position": {
+                  "start": { "line": 160, "column": 222, "offset": 5132 },
+                  "end": { "line": 160, "column": 228, "offset": 5138 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 160, "column": 1, "offset": 4911 },
+              "end": { "line": 160, "column": 228, "offset": 5138 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "tsx",
+            "meta": "filename=\"app/layout.tsx\" switcher",
+            "value": "export default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode\n}) {\n  return (\n    <html lang=\"en\">\n      <body>{children}</body>\n    </html>\n  )\n}",
+            "position": {
+              "start": { "line": 162, "column": 1, "offset": 5140 },
+              "end": { "line": 174, "column": 4, "offset": 5352 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "jsx",
+            "meta": "filename=\"app/layout.js\" switcher",
+            "value": "export default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>{children}</body>\n    </html>\n  )\n}",
+            "position": {
+              "start": { "line": 176, "column": 1, "offset": 5354 },
+              "end": { "line": 184, "column": 4, "offset": 5529 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Create a home page ",
+                "position": {
+                  "start": { "line": 186, "column": 1, "offset": 5531 },
+                  "end": { "line": 186, "column": 20, "offset": 5550 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "app/page.tsx",
+                "position": {
+                  "start": { "line": 186, "column": 20, "offset": 5550 },
+                  "end": { "line": 186, "column": 34, "offset": 5564 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " with some initial content:",
+                "position": {
+                  "start": { "line": 186, "column": 34, "offset": 5564 },
+                  "end": { "line": 186, "column": 61, "offset": 5591 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 186, "column": 1, "offset": 5531 },
+              "end": { "line": 186, "column": 61, "offset": 5591 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "tsx",
+            "meta": "filename=\"app/page.tsx\" switcher",
+            "value": "export default function Page() {\n  return <h1>Hello, Next.js!</h1>\n}",
+            "position": {
+              "start": { "line": 188, "column": 1, "offset": 5593 },
+              "end": { "line": 192, "column": 4, "offset": 5705 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "jsx",
+            "meta": "filename=\"app/page.js\" switcher",
+            "value": "export default function Page() {\n  return <h1>Hello, Next.js!</h1>\n}",
+            "position": {
+              "start": { "line": 194, "column": 1, "offset": 5707 },
+              "end": { "line": 198, "column": 4, "offset": 5818 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Both ",
+                "position": {
+                  "start": { "line": 200, "column": 1, "offset": 5820 },
+                  "end": { "line": 200, "column": 6, "offset": 5825 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "layout.tsx",
+                "position": {
+                  "start": { "line": 200, "column": 6, "offset": 5825 },
+                  "end": { "line": 200, "column": 18, "offset": 5837 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " and ",
+                "position": {
+                  "start": { "line": 200, "column": 18, "offset": 5837 },
+                  "end": { "line": 200, "column": 23, "offset": 5842 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "page.tsx",
+                "position": {
+                  "start": { "line": 200, "column": 23, "offset": 5842 },
+                  "end": { "line": 200, "column": 33, "offset": 5852 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " will be rendered when the user visits the root of your application (",
+                "position": {
+                  "start": { "line": 200, "column": 33, "offset": 5852 },
+                  "end": { "line": 200, "column": 102, "offset": 5921 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "/",
+                "position": {
+                  "start": { "line": 200, "column": 102, "offset": 5921 },
+                  "end": { "line": 200, "column": 105, "offset": 5924 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ").",
+                "position": {
+                  "start": { "line": 200, "column": 105, "offset": 5924 },
+                  "end": { "line": 200, "column": 107, "offset": 5926 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 200, "column": 1, "offset": 5820 },
+              "end": { "line": 200, "column": 107, "offset": 5926 }
+            }
+          },
+          {
+            "type": "mdxJsxFlowElement",
+            "name": "Image",
+            "attributes": [
+              {
+                "type": "mdxJsxAttribute",
+                "name": "alt",
+                "value": "App Folder Structure",
+                "position": {
+                  "start": { "line": 203, "column": 3, "offset": 5937 },
+                  "end": { "line": 203, "column": 29, "offset": 5963 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "srcLight",
+                "value": "/docs/light/app-getting-started.png",
+                "position": {
+                  "start": { "line": 204, "column": 3, "offset": 5966 },
+                  "end": { "line": 204, "column": 49, "offset": 6012 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "srcDark",
+                "value": "/docs/dark/app-getting-started.png",
+                "position": {
+                  "start": { "line": 205, "column": 3, "offset": 6015 },
+                  "end": { "line": 205, "column": 47, "offset": 6059 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "width",
+                "value": "1600",
+                "position": {
+                  "start": { "line": 206, "column": 3, "offset": 6062 },
+                  "end": { "line": 206, "column": 15, "offset": 6074 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "height",
+                "value": "363",
+                "position": {
+                  "start": { "line": 207, "column": 3, "offset": 6077 },
+                  "end": { "line": 207, "column": 15, "offset": 6089 }
+                }
+              }
+            ],
+            "children": [],
+            "position": {
+              "start": { "line": 202, "column": 1, "offset": 5928 },
+              "end": { "line": 208, "column": 3, "offset": 6092 }
+            }
+          },
+          {
+            "type": "blockquote",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Good to know",
+                        "position": {
+                          "start": { "line": 210, "column": 5, "offset": 6098 },
+                          "end": { "line": 210, "column": 17, "offset": 6110 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 210, "column": 3, "offset": 6096 },
+                      "end": { "line": 210, "column": 19, "offset": 6112 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ":",
+                    "position": {
+                      "start": { "line": 210, "column": 19, "offset": 6112 },
+                      "end": { "line": 210, "column": 20, "offset": 6113 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 210, "column": 3, "offset": 6096 },
+                  "end": { "line": 210, "column": 20, "offset": 6113 }
+                }
+              },
+              {
+                "type": "list",
+                "ordered": false,
+                "start": null,
+                "spread": false,
+                "children": [
+                  {
+                    "type": "listItem",
+                    "spread": false,
+                    "checked": null,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "If you forget to create the root layout, Next.js will automatically create this file when running the development server with ",
+                            "position": {
+                              "start": {
+                                "line": 212,
+                                "column": 5,
+                                "offset": 6120
+                              },
+                              "end": {
+                                "line": 212,
+                                "column": 131,
+                                "offset": 6246
+                              }
+                            }
+                          },
+                          {
+                            "type": "inlineCode",
+                            "value": "next dev",
+                            "position": {
+                              "start": {
+                                "line": 212,
+                                "column": 131,
+                                "offset": 6246
+                              },
+                              "end": {
+                                "line": 212,
+                                "column": 141,
+                                "offset": 6256
+                              }
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                              "start": {
+                                "line": 212,
+                                "column": 141,
+                                "offset": 6256
+                              },
+                              "end": {
+                                "line": 212,
+                                "column": 142,
+                                "offset": 6257
+                              }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 212, "column": 5, "offset": 6120 },
+                          "end": { "line": 212, "column": 142, "offset": 6257 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 212, "column": 3, "offset": 6118 },
+                      "end": { "line": 212, "column": 142, "offset": 6257 }
+                    }
+                  },
+                  {
+                    "type": "listItem",
+                    "spread": false,
+                    "checked": null,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "You can optionally use a ",
+                            "position": {
+                              "start": {
+                                "line": 213,
+                                "column": 5,
+                                "offset": 6262
+                              },
+                              "end": {
+                                "line": 213,
+                                "column": 30,
+                                "offset": 6287
+                              }
+                            }
+                          },
+                          {
+                            "type": "link",
+                            "title": null,
+                            "url": "/docs/app/api-reference/file-conventions/src-folder",
+                            "children": [
+                              {
+                                "type": "inlineCode",
+                                "value": "src",
+                                "position": {
+                                  "start": {
+                                    "line": 213,
+                                    "column": 31,
+                                    "offset": 6288
+                                  },
+                                  "end": {
+                                    "line": 213,
+                                    "column": 36,
+                                    "offset": 6293
+                                  }
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " folder",
+                                "position": {
+                                  "start": {
+                                    "line": 213,
+                                    "column": 36,
+                                    "offset": 6293
+                                  },
+                                  "end": {
+                                    "line": 213,
+                                    "column": 43,
+                                    "offset": 6300
+                                  }
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 213,
+                                "column": 30,
+                                "offset": 6287
+                              },
+                              "end": {
+                                "line": 213,
+                                "column": 97,
+                                "offset": 6354
+                              }
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " in the root of your project to separate your application's code from configuration files.",
+                            "position": {
+                              "start": {
+                                "line": 213,
+                                "column": 97,
+                                "offset": 6354
+                              },
+                              "end": {
+                                "line": 213,
+                                "column": 187,
+                                "offset": 6444
+                              }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 213, "column": 5, "offset": 6262 },
+                          "end": { "line": 213, "column": 187, "offset": 6444 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 213, "column": 3, "offset": 6260 },
+                      "end": { "line": 213, "column": 187, "offset": 6444 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 212, "column": 3, "offset": 6118 },
+                  "end": { "line": 213, "column": 187, "offset": 6444 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 210, "column": 1, "offset": 6094 },
+              "end": { "line": 213, "column": 187, "offset": 6444 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 154, "column": 1, "offset": 4742 },
+          "end": { "line": 215, "column": 11, "offset": 6456 }
+        }
+      },
+      {
+        "type": "mdxJsxFlowElement",
+        "name": "PagesOnly",
+        "attributes": [],
+        "children": [
+          {
+            "type": "heading",
+            "depth": 3,
+            "children": [
+              {
+                "type": "text",
+                "value": "Create the ",
+                "position": {
+                  "start": { "line": 219, "column": 5, "offset": 6475 },
+                  "end": { "line": 219, "column": 16, "offset": 6486 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "pages",
+                "position": {
+                  "start": { "line": 219, "column": 16, "offset": 6486 },
+                  "end": { "line": 219, "column": 23, "offset": 6493 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " directory",
+                "position": {
+                  "start": { "line": 219, "column": 23, "offset": 6493 },
+                  "end": { "line": 219, "column": 33, "offset": 6503 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 219, "column": 1, "offset": 6471 },
+              "end": { "line": 219, "column": 33, "offset": 6503 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Next.js uses file-system routing, which means the routes in your application are determined by how you structure your files.",
+                "position": {
+                  "start": { "line": 221, "column": 1, "offset": 6505 },
+                  "end": { "line": 221, "column": 125, "offset": 6629 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 221, "column": 1, "offset": 6505 },
+              "end": { "line": 221, "column": 125, "offset": 6629 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Create a ",
+                "position": {
+                  "start": { "line": 223, "column": 1, "offset": 6631 },
+                  "end": { "line": 223, "column": 10, "offset": 6640 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "pages",
+                "position": {
+                  "start": { "line": 223, "column": 10, "offset": 6640 },
+                  "end": { "line": 223, "column": 17, "offset": 6647 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " directory at the root of your project. Then, add an ",
+                "position": {
+                  "start": { "line": 223, "column": 17, "offset": 6647 },
+                  "end": { "line": 223, "column": 70, "offset": 6700 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "index.tsx",
+                "position": {
+                  "start": { "line": 223, "column": 70, "offset": 6700 },
+                  "end": { "line": 223, "column": 81, "offset": 6711 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " file inside your ",
+                "position": {
+                  "start": { "line": 223, "column": 81, "offset": 6711 },
+                  "end": { "line": 223, "column": 99, "offset": 6729 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "pages",
+                "position": {
+                  "start": { "line": 223, "column": 99, "offset": 6729 },
+                  "end": { "line": 223, "column": 106, "offset": 6736 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " folder. This will be your home page (",
+                "position": {
+                  "start": { "line": 223, "column": 106, "offset": 6736 },
+                  "end": { "line": 223, "column": 144, "offset": 6774 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "/",
+                "position": {
+                  "start": { "line": 223, "column": 144, "offset": 6774 },
+                  "end": { "line": 223, "column": 147, "offset": 6777 }
+                }
+              },
+              {
+                "type": "text",
+                "value": "):",
+                "position": {
+                  "start": { "line": 223, "column": 147, "offset": 6777 },
+                  "end": { "line": 223, "column": 149, "offset": 6779 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 223, "column": 1, "offset": 6631 },
+              "end": { "line": 223, "column": 149, "offset": 6779 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "tsx",
+            "meta": "filename=\"pages/index.tsx\" switcher",
+            "value": "export default function Page() {\n  return <h1>Hello, Next.js!</h1>\n}",
+            "position": {
+              "start": { "line": 225, "column": 1, "offset": 6781 },
+              "end": { "line": 229, "column": 4, "offset": 6896 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "jsx",
+            "meta": "filename=\"pages/index.js\" switcher",
+            "value": "export default function Page() {\n  return <h1>Hello, Next.js!</h1>\n}",
+            "position": {
+              "start": { "line": 231, "column": 1, "offset": 6898 },
+              "end": { "line": 235, "column": 4, "offset": 7012 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Next, add an ",
+                "position": {
+                  "start": { "line": 237, "column": 1, "offset": 7014 },
+                  "end": { "line": 237, "column": 14, "offset": 7027 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "_app.tsx",
+                "position": {
+                  "start": { "line": 237, "column": 14, "offset": 7027 },
+                  "end": { "line": 237, "column": 24, "offset": 7037 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " file inside ",
+                "position": {
+                  "start": { "line": 237, "column": 24, "offset": 7037 },
+                  "end": { "line": 237, "column": 37, "offset": 7050 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "pages/",
+                "position": {
+                  "start": { "line": 237, "column": 37, "offset": 7050 },
+                  "end": { "line": 237, "column": 45, "offset": 7058 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " to define the global layout. Learn more about the ",
+                "position": {
+                  "start": { "line": 237, "column": 45, "offset": 7058 },
+                  "end": { "line": 237, "column": 96, "offset": 7109 }
+                }
+              },
+              {
+                "type": "link",
+                "title": null,
+                "url": "/docs/pages/building-your-application/routing/custom-app",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "custom App file",
+                    "position": {
+                      "start": { "line": 237, "column": 97, "offset": 7110 },
+                      "end": { "line": 237, "column": 112, "offset": 7125 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 237, "column": 96, "offset": 7109 },
+                  "end": { "line": 237, "column": 171, "offset": 7184 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ".",
+                "position": {
+                  "start": { "line": 237, "column": 171, "offset": 7184 },
+                  "end": { "line": 237, "column": 172, "offset": 7185 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 237, "column": 1, "offset": 7014 },
+              "end": { "line": 237, "column": 172, "offset": 7185 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "tsx",
+            "meta": "filename=\"pages/_app.tsx\" switcher",
+            "value": "import type { AppProps } from 'next/app'\n\nexport default function App({ Component, pageProps }: AppProps) {\n  return <Component {...pageProps} />\n}",
+            "position": {
+              "start": { "line": 239, "column": 1, "offset": 7187 },
+              "end": { "line": 245, "column": 4, "offset": 7380 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "jsx",
+            "meta": "filename=\"pages/_app.js\" switcher",
+            "value": "export default function App({ Component, pageProps }) {\n  return <Component {...pageProps} />\n}",
+            "position": {
+              "start": { "line": 247, "column": 1, "offset": 7382 },
+              "end": { "line": 251, "column": 4, "offset": 7522 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Finally, add a ",
+                "position": {
+                  "start": { "line": 253, "column": 1, "offset": 7524 },
+                  "end": { "line": 253, "column": 16, "offset": 7539 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "_document.tsx",
+                "position": {
+                  "start": { "line": 253, "column": 16, "offset": 7539 },
+                  "end": { "line": 253, "column": 31, "offset": 7554 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " file inside ",
+                "position": {
+                  "start": { "line": 253, "column": 31, "offset": 7554 },
+                  "end": { "line": 253, "column": 44, "offset": 7567 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "pages/",
+                "position": {
+                  "start": { "line": 253, "column": 44, "offset": 7567 },
+                  "end": { "line": 253, "column": 52, "offset": 7575 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " to control the initial response from the server. Learn more about the ",
+                "position": {
+                  "start": { "line": 253, "column": 52, "offset": 7575 },
+                  "end": { "line": 253, "column": 123, "offset": 7646 }
+                }
+              },
+              {
+                "type": "link",
+                "title": null,
+                "url": "/docs/pages/building-your-application/routing/custom-document",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "custom Document file",
+                    "position": {
+                      "start": { "line": 253, "column": 124, "offset": 7647 },
+                      "end": { "line": 253, "column": 144, "offset": 7667 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 253, "column": 123, "offset": 7646 },
+                  "end": { "line": 253, "column": 208, "offset": 7731 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ".",
+                "position": {
+                  "start": { "line": 253, "column": 208, "offset": 7731 },
+                  "end": { "line": 253, "column": 209, "offset": 7732 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 253, "column": 1, "offset": 7524 },
+              "end": { "line": 253, "column": 209, "offset": 7732 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "tsx",
+            "meta": "filename=\"pages/_document.tsx\" switcher",
+            "value": "import { Html, Head, Main, NextScript } from 'next/document'\n\nexport default function Document() {\n  return (\n    <Html>\n      <Head />\n      <body>\n        <Main />\n        <NextScript />\n      </body>\n    </Html>\n  )\n}",
+            "position": {
+              "start": { "line": 255, "column": 1, "offset": 7734 },
+              "end": { "line": 269, "column": 4, "offset": 8005 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "jsx",
+            "meta": "filename=\"pages/_document.js\" switcher",
+            "value": "import { Html, Head, Main, NextScript } from 'next/document'\n\nexport default function Document() {\n  return (\n    <Html>\n      <Head />\n      <body>\n        <Main />\n        <NextScript />\n      </body>\n    </Html>\n  )\n}",
+            "position": {
+              "start": { "line": 271, "column": 1, "offset": 8007 },
+              "end": { "line": 285, "column": 4, "offset": 8277 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 217, "column": 1, "offset": 6458 },
+          "end": { "line": 287, "column": 13, "offset": 8291 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Create the public folder (optional)",
+    "level": 3,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Create a ",
+            "position": {
+              "start": { "line": 291, "column": 1, "offset": 8336 },
+              "end": { "line": 291, "column": 10, "offset": 8345 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/api-reference/file-conventions/public-folder",
+            "children": [
+              {
+                "type": "inlineCode",
+                "value": "public",
+                "position": {
+                  "start": { "line": 291, "column": 11, "offset": 8346 },
+                  "end": { "line": 291, "column": 19, "offset": 8354 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " folder",
+                "position": {
+                  "start": { "line": 291, "column": 19, "offset": 8354 },
+                  "end": { "line": 291, "column": 26, "offset": 8361 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 291, "column": 10, "offset": 8345 },
+              "end": { "line": 291, "column": 83, "offset": 8418 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " at the root of your project to store static assets such as images, fonts, etc. Files inside ",
+            "position": {
+              "start": { "line": 291, "column": 83, "offset": 8418 },
+              "end": { "line": 291, "column": 176, "offset": 8511 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "public",
+            "position": {
+              "start": { "line": 291, "column": 176, "offset": 8511 },
+              "end": { "line": 291, "column": 184, "offset": 8519 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " can then be referenced by your code starting from the base URL (",
+            "position": {
+              "start": { "line": 291, "column": 184, "offset": 8519 },
+              "end": { "line": 291, "column": 249, "offset": 8584 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "/",
+            "position": {
+              "start": { "line": 291, "column": 249, "offset": 8584 },
+              "end": { "line": 291, "column": 252, "offset": 8587 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ").",
+            "position": {
+              "start": { "line": 291, "column": 252, "offset": 8587 },
+              "end": { "line": 291, "column": 254, "offset": 8589 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 291, "column": 1, "offset": 8336 },
+          "end": { "line": 291, "column": 254, "offset": 8589 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "You can then reference these assets using the root path (",
+            "position": {
+              "start": { "line": 293, "column": 1, "offset": 8591 },
+              "end": { "line": 293, "column": 58, "offset": 8648 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "/",
+            "position": {
+              "start": { "line": 293, "column": 58, "offset": 8648 },
+              "end": { "line": 293, "column": 61, "offset": 8651 }
+            }
+          },
+          {
+            "type": "text",
+            "value": "). For example, ",
+            "position": {
+              "start": { "line": 293, "column": 61, "offset": 8651 },
+              "end": { "line": 293, "column": 77, "offset": 8667 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "public/profile.png",
+            "position": {
+              "start": { "line": 293, "column": 77, "offset": 8667 },
+              "end": { "line": 293, "column": 97, "offset": 8687 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " can be referenced as ",
+            "position": {
+              "start": { "line": 293, "column": 97, "offset": 8687 },
+              "end": { "line": 293, "column": 119, "offset": 8709 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "/profile.png",
+            "position": {
+              "start": { "line": 293, "column": 119, "offset": 8709 },
+              "end": { "line": 293, "column": 133, "offset": 8723 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ":",
+            "position": {
+              "start": { "line": 293, "column": 133, "offset": 8723 },
+              "end": { "line": 293, "column": 134, "offset": 8724 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 293, "column": 1, "offset": 8591 },
+          "end": { "line": 293, "column": 134, "offset": 8724 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "tsx",
+        "meta": "filename=\"app/page.tsx\" highlight={4} switcher",
+        "value": "import Image from 'next/image'\n\nexport default function Page() {\n  return <Image src=\"/profile.png\" alt=\"Profile\" width={100} height={100} />\n}",
+        "position": {
+          "start": { "line": 295, "column": 1, "offset": 8726 },
+          "end": { "line": 301, "column": 4, "offset": 8927 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "jsx",
+        "meta": "filename=\"app/page.js\" highlight={4} switcher",
+        "value": "import Image from 'next/image'\n\nexport default function Page() {\n  return <Image src=\"/profile.png\" alt=\"Profile\" width={100} height={100} />\n}",
+        "position": {
+          "start": { "line": 303, "column": 1, "offset": 8929 },
+          "end": { "line": 309, "column": 4, "offset": 9129 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Run the development server",
+    "level": 2,
+    "content": [
+      {
+        "type": "list",
+        "ordered": true,
+        "start": 1,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Run ",
+                    "position": {
+                      "start": { "line": 313, "column": 4, "offset": 9165 },
+                      "end": { "line": 313, "column": 8, "offset": 9169 }
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "npm run dev",
+                    "position": {
+                      "start": { "line": 313, "column": 8, "offset": 9169 },
+                      "end": { "line": 313, "column": 21, "offset": 9182 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " to start the development server.",
+                    "position": {
+                      "start": { "line": 313, "column": 21, "offset": 9182 },
+                      "end": { "line": 313, "column": 54, "offset": 9215 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 313, "column": 4, "offset": 9165 },
+                  "end": { "line": 313, "column": 54, "offset": 9215 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 313, "column": 1, "offset": 9162 },
+              "end": { "line": 313, "column": 54, "offset": 9215 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Visit ",
+                    "position": {
+                      "start": { "line": 314, "column": 4, "offset": 9219 },
+                      "end": { "line": 314, "column": 10, "offset": 9225 }
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "http://localhost:3000",
+                    "position": {
+                      "start": { "line": 314, "column": 10, "offset": 9225 },
+                      "end": { "line": 314, "column": 33, "offset": 9248 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " to view your application.",
+                    "position": {
+                      "start": { "line": 314, "column": 33, "offset": 9248 },
+                      "end": { "line": 314, "column": 59, "offset": 9274 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 314, "column": 4, "offset": 9219 },
+                  "end": { "line": 314, "column": 59, "offset": 9274 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 314, "column": 1, "offset": 9216 },
+              "end": { "line": 314, "column": 59, "offset": 9274 }
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Edit the ",
+                    "position": {
+                      "start": { "line": 315, "column": 4, "offset": 9278 },
+                      "end": { "line": 315, "column": 13, "offset": 9287 }
+                    }
+                  },
+                  {
+                    "type": "mdxJsxTextElement",
+                    "name": "AppOnly",
+                    "attributes": [],
+                    "children": [
+                      {
+                        "type": "inlineCode",
+                        "value": "app/page.tsx",
+                        "position": {
+                          "start": {
+                            "line": 315,
+                            "column": 22,
+                            "offset": 9296
+                          },
+                          "end": { "line": 315, "column": 36, "offset": 9310 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 315, "column": 13, "offset": 9287 },
+                      "end": { "line": 315, "column": 46, "offset": 9320 }
+                    }
+                  },
+                  {
+                    "type": "mdxJsxTextElement",
+                    "name": "PagesOnly",
+                    "attributes": [],
+                    "children": [
+                      {
+                        "type": "inlineCode",
+                        "value": "pages/index.tsx",
+                        "position": {
+                          "start": {
+                            "line": 315,
+                            "column": 57,
+                            "offset": 9331
+                          },
+                          "end": { "line": 315, "column": 74, "offset": 9348 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 315, "column": 46, "offset": 9320 },
+                      "end": { "line": 315, "column": 86, "offset": 9360 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " file and save it to see the updated result in your browser.",
+                    "position": {
+                      "start": { "line": 315, "column": 86, "offset": 9360 },
+                      "end": { "line": 315, "column": 146, "offset": 9420 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 315, "column": 4, "offset": 9278 },
+                  "end": { "line": 315, "column": 146, "offset": 9420 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 315, "column": 1, "offset": 9275 },
+              "end": { "line": 315, "column": 146, "offset": 9420 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 313, "column": 1, "offset": 9162 },
+          "end": { "line": 315, "column": 146, "offset": 9420 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Set up TypeScript",
+    "level": 2,
+    "content": [
+      {
+        "type": "blockquote",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Minimum TypeScript version: ",
+                "position": {
+                  "start": { "line": 319, "column": 3, "offset": 9446 },
+                  "end": { "line": 319, "column": 31, "offset": 9474 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "v5.1.0",
+                "position": {
+                  "start": { "line": 319, "column": 31, "offset": 9474 },
+                  "end": { "line": 319, "column": 39, "offset": 9482 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 319, "column": 3, "offset": 9446 },
+              "end": { "line": 319, "column": 39, "offset": 9482 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 319, "column": 1, "offset": 9444 },
+          "end": { "line": 319, "column": 39, "offset": 9482 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Next.js comes with built-in TypeScript support. To add TypeScript to your project, rename a file to ",
+            "position": {
+              "start": { "line": 321, "column": 1, "offset": 9484 },
+              "end": { "line": 321, "column": 101, "offset": 9584 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": ".ts",
+            "position": {
+              "start": { "line": 321, "column": 101, "offset": 9584 },
+              "end": { "line": 321, "column": 106, "offset": 9589 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " / ",
+            "position": {
+              "start": { "line": 321, "column": 106, "offset": 9589 },
+              "end": { "line": 321, "column": 109, "offset": 9592 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": ".tsx",
+            "position": {
+              "start": { "line": 321, "column": 109, "offset": 9592 },
+              "end": { "line": 321, "column": 115, "offset": 9598 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and run ",
+            "position": {
+              "start": { "line": 321, "column": 115, "offset": 9598 },
+              "end": { "line": 321, "column": 124, "offset": 9607 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "next dev",
+            "position": {
+              "start": { "line": 321, "column": 124, "offset": 9607 },
+              "end": { "line": 321, "column": 134, "offset": 9617 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Next.js will automatically install the necessary dependencies and add a ",
+            "position": {
+              "start": { "line": 321, "column": 134, "offset": 9617 },
+              "end": { "line": 321, "column": 208, "offset": 9691 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "tsconfig.json",
+            "position": {
+              "start": { "line": 321, "column": 208, "offset": 9691 },
+              "end": { "line": 321, "column": 223, "offset": 9706 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " file with the recommended config options.",
+            "position": {
+              "start": { "line": 321, "column": 223, "offset": 9706 },
+              "end": { "line": 321, "column": 265, "offset": 9748 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 321, "column": 1, "offset": 9484 },
+          "end": { "line": 321, "column": 265, "offset": 9748 }
+        }
+      },
+      {
+        "type": "mdxJsxFlowElement",
+        "name": "AppOnly",
+        "attributes": [],
+        "children": [
+          {
+            "type": "heading",
+            "depth": 3,
+            "children": [
+              {
+                "type": "text",
+                "value": "IDE Plugin",
+                "position": {
+                  "start": { "line": 325, "column": 5, "offset": 9765 },
+                  "end": { "line": 325, "column": 15, "offset": 9775 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 325, "column": 1, "offset": 9761 },
+              "end": { "line": 325, "column": 15, "offset": 9775 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Next.js includes a custom TypeScript plugin and type checker, which VSCode and other code editors can use for advanced type-checking and auto-completion.",
+                "position": {
+                  "start": { "line": 327, "column": 1, "offset": 9777 },
+                  "end": { "line": 327, "column": 154, "offset": 9930 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 327, "column": 1, "offset": 9777 },
+              "end": { "line": 327, "column": 154, "offset": 9930 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "You can enable the plugin in VS Code by:",
+                "position": {
+                  "start": { "line": 329, "column": 1, "offset": 9932 },
+                  "end": { "line": 329, "column": 41, "offset": 9972 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 329, "column": 1, "offset": 9932 },
+              "end": { "line": 329, "column": 41, "offset": 9972 }
+            }
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "start": 1,
+            "spread": false,
+            "children": [
+              {
+                "type": "listItem",
+                "spread": false,
+                "checked": null,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Opening the command palette (",
+                        "position": {
+                          "start": { "line": 331, "column": 4, "offset": 9977 },
+                          "end": { "line": 331, "column": 33, "offset": 10006 }
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "Ctrl/⌘",
+                        "position": {
+                          "start": {
+                            "line": 331,
+                            "column": 33,
+                            "offset": 10006
+                          },
+                          "end": { "line": 331, "column": 41, "offset": 10014 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " + ",
+                        "position": {
+                          "start": {
+                            "line": 331,
+                            "column": 41,
+                            "offset": 10014
+                          },
+                          "end": { "line": 331, "column": 44, "offset": 10017 }
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "Shift",
+                        "position": {
+                          "start": {
+                            "line": 331,
+                            "column": 44,
+                            "offset": 10017
+                          },
+                          "end": { "line": 331, "column": 51, "offset": 10024 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " + ",
+                        "position": {
+                          "start": {
+                            "line": 331,
+                            "column": 51,
+                            "offset": 10024
+                          },
+                          "end": { "line": 331, "column": 54, "offset": 10027 }
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "P",
+                        "position": {
+                          "start": {
+                            "line": 331,
+                            "column": 54,
+                            "offset": 10027
+                          },
+                          "end": { "line": 331, "column": 57, "offset": 10030 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": ")",
+                        "position": {
+                          "start": {
+                            "line": 331,
+                            "column": 57,
+                            "offset": 10030
+                          },
+                          "end": { "line": 331, "column": 58, "offset": 10031 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 331, "column": 4, "offset": 9977 },
+                      "end": { "line": 331, "column": 58, "offset": 10031 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 331, "column": 1, "offset": 9974 },
+                  "end": { "line": 331, "column": 58, "offset": 10031 }
+                }
+              },
+              {
+                "type": "listItem",
+                "spread": false,
+                "checked": null,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Searching for \"TypeScript: Select TypeScript Version\"",
+                        "position": {
+                          "start": {
+                            "line": 332,
+                            "column": 4,
+                            "offset": 10035
+                          },
+                          "end": { "line": 332, "column": 57, "offset": 10088 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 332, "column": 4, "offset": 10035 },
+                      "end": { "line": 332, "column": 57, "offset": 10088 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 332, "column": 1, "offset": 10032 },
+                  "end": { "line": 332, "column": 57, "offset": 10088 }
+                }
+              },
+              {
+                "type": "listItem",
+                "spread": false,
+                "checked": null,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Selecting \"Use Workspace Version\"",
+                        "position": {
+                          "start": {
+                            "line": 333,
+                            "column": 4,
+                            "offset": 10092
+                          },
+                          "end": { "line": 333, "column": 37, "offset": 10125 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 333, "column": 4, "offset": 10092 },
+                      "end": { "line": 333, "column": 37, "offset": 10125 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 333, "column": 1, "offset": 10089 },
+                  "end": { "line": 333, "column": 37, "offset": 10125 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 331, "column": 1, "offset": 9974 },
+              "end": { "line": 333, "column": 37, "offset": 10125 }
+            }
+          },
+          {
+            "type": "mdxJsxFlowElement",
+            "name": "Image",
+            "attributes": [
+              {
+                "type": "mdxJsxAttribute",
+                "name": "alt",
+                "value": "TypeScript Command Palette",
+                "position": {
+                  "start": { "line": 336, "column": 3, "offset": 10136 },
+                  "end": { "line": 336, "column": 35, "offset": 10168 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "srcLight",
+                "value": "/docs/light/typescript-command-palette.png",
+                "position": {
+                  "start": { "line": 337, "column": 3, "offset": 10171 },
+                  "end": { "line": 337, "column": 56, "offset": 10224 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "srcDark",
+                "value": "/docs/dark/typescript-command-palette.png",
+                "position": {
+                  "start": { "line": 338, "column": 3, "offset": 10227 },
+                  "end": { "line": 338, "column": 54, "offset": 10278 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "width",
+                "value": "1600",
+                "position": {
+                  "start": { "line": 339, "column": 3, "offset": 10281 },
+                  "end": { "line": 339, "column": 15, "offset": 10293 }
+                }
+              },
+              {
+                "type": "mdxJsxAttribute",
+                "name": "height",
+                "value": "637",
+                "position": {
+                  "start": { "line": 340, "column": 3, "offset": 10296 },
+                  "end": { "line": 340, "column": 15, "offset": 10308 }
+                }
+              }
+            ],
+            "children": [],
+            "position": {
+              "start": { "line": 335, "column": 1, "offset": 10127 },
+              "end": { "line": 341, "column": 3, "offset": 10311 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 323, "column": 1, "offset": 9750 },
+          "end": { "line": 343, "column": 11, "offset": 10323 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "See the ",
+            "position": {
+              "start": { "line": 345, "column": 1, "offset": 10325 },
+              "end": { "line": 345, "column": 9, "offset": 10333 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/api-reference/config/typescript",
+            "children": [
+              {
+                "type": "text",
+                "value": "TypeScript reference",
+                "position": {
+                  "start": { "line": 345, "column": 10, "offset": 10334 },
+                  "end": { "line": 345, "column": 30, "offset": 10354 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 345, "column": 9, "offset": 10333 },
+              "end": { "line": 345, "column": 74, "offset": 10398 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " page for more information.",
+            "position": {
+              "start": { "line": 345, "column": 74, "offset": 10398 },
+              "end": { "line": 345, "column": 101, "offset": 10425 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 345, "column": 1, "offset": 10325 },
+          "end": { "line": 345, "column": 101, "offset": 10425 }
+        }
+      },
+      {
+        "type": "mdxJsxFlowElement",
+        "name": "AppOnly",
+        "attributes": [],
+        "children": [
+          {
+            "type": "heading",
+            "depth": 2,
+            "children": [
+              {
+                "type": "text",
+                "value": "Set up your editor",
+                "position": {
+                  "start": { "line": 349, "column": 4, "offset": 10441 },
+                  "end": { "line": 349, "column": 22, "offset": 10459 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 349, "column": 1, "offset": 10438 },
+              "end": { "line": 349, "column": 22, "offset": 10459 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The App Router names files by convention, like ",
+                "position": {
+                  "start": { "line": 351, "column": 1, "offset": 10461 },
+                  "end": { "line": 351, "column": 48, "offset": 10508 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "page.tsx",
+                "position": {
+                  "start": { "line": 351, "column": 48, "offset": 10508 },
+                  "end": { "line": 351, "column": 58, "offset": 10518 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ", ",
+                "position": {
+                  "start": { "line": 351, "column": 58, "offset": 10518 },
+                  "end": { "line": 351, "column": 60, "offset": 10520 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "layout.tsx",
+                "position": {
+                  "start": { "line": 351, "column": 60, "offset": 10520 },
+                  "end": { "line": 351, "column": 72, "offset": 10532 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ", and ",
+                "position": {
+                  "start": { "line": 351, "column": 72, "offset": 10532 },
+                  "end": { "line": 351, "column": 78, "offset": 10538 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "route.ts",
+                "position": {
+                  "start": { "line": 351, "column": 78, "offset": 10538 },
+                  "end": { "line": 351, "column": 88, "offset": 10548 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ", so your editor quickly fills with same-named tabs. Label each tab with its enclosing folders, like ",
+                "position": {
+                  "start": { "line": 351, "column": 88, "offset": 10548 },
+                  "end": { "line": 351, "column": 189, "offset": 10649 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "blog/[id]",
+                "position": {
+                  "start": { "line": 351, "column": 189, "offset": 10649 },
+                  "end": { "line": 351, "column": 200, "offset": 10660 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ", so you can tell them apart.",
+                "position": {
+                  "start": { "line": 351, "column": 200, "offset": 10660 },
+                  "end": { "line": 351, "column": 229, "offset": 10689 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 351, "column": 1, "offset": 10461 },
+              "end": { "line": 351, "column": 229, "offset": 10689 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "In VS Code 1.88+ or Cursor, add ",
+                "position": {
+                  "start": { "line": 353, "column": 1, "offset": 10691 },
+                  "end": { "line": 353, "column": 33, "offset": 10723 }
+                }
+              },
+              {
+                "type": "link",
+                "title": null,
+                "url": "https://code.visualstudio.com/updates/v1_88#_customize-editor-labels",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "custom editor labels",
+                    "position": {
+                      "start": { "line": 353, "column": 34, "offset": 10724 },
+                      "end": { "line": 353, "column": 54, "offset": 10744 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 353, "column": 33, "offset": 10723 },
+                  "end": { "line": 353, "column": 125, "offset": 10815 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " to ",
+                "position": {
+                  "start": { "line": 353, "column": 125, "offset": 10815 },
+                  "end": { "line": 353, "column": 129, "offset": 10819 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": ".vscode/settings.json",
+                "position": {
+                  "start": { "line": 353, "column": 129, "offset": 10819 },
+                  "end": { "line": 353, "column": 152, "offset": 10842 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ". Labeling two folders deep keeps dynamic routes like ",
+                "position": {
+                  "start": { "line": 353, "column": 152, "offset": 10842 },
+                  "end": { "line": 353, "column": 206, "offset": 10896 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "blog/[id]/page.tsx",
+                "position": {
+                  "start": { "line": 353, "column": 206, "offset": 10896 },
+                  "end": { "line": 353, "column": 226, "offset": 10916 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " from all collapsing to the same ",
+                "position": {
+                  "start": { "line": 353, "column": 226, "offset": 10916 },
+                  "end": { "line": 353, "column": 259, "offset": 10949 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "[id]",
+                "position": {
+                  "start": { "line": 353, "column": 259, "offset": 10949 },
+                  "end": { "line": 353, "column": 265, "offset": 10955 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " label:",
+                "position": {
+                  "start": { "line": 353, "column": 265, "offset": 10955 },
+                  "end": { "line": 353, "column": 272, "offset": 10962 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 353, "column": 1, "offset": 10691 },
+              "end": { "line": 353, "column": 272, "offset": 10962 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "json",
+            "meta": "filename=\".vscode/settings.json\"",
+            "value": "{\n  \"workbench.editor.customLabels.patterns\": {\n    \"**/app/**/page.tsx\": \"${dirname(1)}/${dirname} - page.tsx\",\n    \"**/app/**/layout.tsx\": \"${dirname(1)}/${dirname} - layout.tsx\",\n    \"**/app/**/loading.tsx\": \"${dirname(1)}/${dirname} - loading.tsx\",\n    \"**/app/**/error.tsx\": \"${dirname(1)}/${dirname} - error.tsx\",\n    \"**/app/**/not-found.tsx\": \"${dirname(1)}/${dirname} - not-found.tsx\",\n    \"**/app/**/template.tsx\": \"${dirname(1)}/${dirname} - template.tsx\",\n    \"**/app/**/default.tsx\": \"${dirname(1)}/${dirname} - default.tsx\",\n    \"**/app/**/route.ts\": \"${dirname(1)}/${dirname} - route.ts\"\n  }\n}",
+            "position": {
+              "start": { "line": 355, "column": 1, "offset": 10964 },
+              "end": { "line": 368, "column": 4, "offset": 11617 }
+            }
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Or copy this prompt to have your coding agent set it up:",
+                "position": {
+                  "start": { "line": 370, "column": 1, "offset": 11619 },
+                  "end": { "line": 370, "column": 57, "offset": 11675 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 370, "column": 1, "offset": 11619 },
+              "end": { "line": 370, "column": 57, "offset": 11675 }
+            }
+          },
+          {
+            "type": "code",
+            "lang": "prompt",
+            "meta": null,
+            "value": "Set up custom editor labels so my Next.js App Router files are easy to tell apart. Read https://nextjs.org/docs/app/getting-started/installation#set-up-your-editor and add the workbench.editor.customLabels.patterns config shown there to my .vscode/settings.json, creating the file if it doesn't exist. Adjust the labels to taste. If I use a different editor, apply the equivalent setting or tell me it's automatic, and leave my other settings untouched.",
+            "position": {
+              "start": { "line": 372, "column": 1, "offset": 11677 },
+              "end": { "line": 374, "column": 4, "offset": 12144 }
+            }
+          },
+          {
+            "type": "blockquote",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Good to know:",
+                        "position": {
+                          "start": {
+                            "line": 376,
+                            "column": 5,
+                            "offset": 12150
+                          },
+                          "end": { "line": 376, "column": 18, "offset": 12163 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 376, "column": 3, "offset": 12148 },
+                      "end": { "line": 376, "column": 20, "offset": 12165 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " JetBrains IDEs (WebStorm, IntelliJ) show the folder for same-named files automatically, so no setup is needed.",
+                    "position": {
+                      "start": { "line": 376, "column": 20, "offset": 12165 },
+                      "end": { "line": 376, "column": 131, "offset": 12276 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 376, "column": 3, "offset": 12148 },
+                  "end": { "line": 376, "column": 131, "offset": 12276 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 376, "column": 1, "offset": 12146 },
+              "end": { "line": 376, "column": 131, "offset": 12276 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 347, "column": 1, "offset": 10427 },
+          "end": { "line": 378, "column": 11, "offset": 12288 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Set up linting",
+    "level": 2,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Next.js supports linting with either ESLint or Biome. Choose a linter and run it directly via ",
+            "position": {
+              "start": { "line": 382, "column": 1, "offset": 12309 },
+              "end": { "line": 382, "column": 95, "offset": 12403 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "package.json",
+            "position": {
+              "start": { "line": 382, "column": 95, "offset": 12403 },
+              "end": { "line": 382, "column": 109, "offset": 12417 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " scripts.",
+            "position": {
+              "start": { "line": 382, "column": 109, "offset": 12417 },
+              "end": { "line": 382, "column": 118, "offset": 12426 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 382, "column": 1, "offset": 12309 },
+          "end": { "line": 382, "column": 118, "offset": 12426 }
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Use ",
+                    "position": {
+                      "start": { "line": 384, "column": 3, "offset": 12430 },
+                      "end": { "line": 384, "column": 7, "offset": 12434 }
+                    }
+                  },
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ESLint",
+                        "position": {
+                          "start": {
+                            "line": 384,
+                            "column": 9,
+                            "offset": 12436
+                          },
+                          "end": { "line": 384, "column": 15, "offset": 12442 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 384, "column": 7, "offset": 12434 },
+                      "end": { "line": 384, "column": 17, "offset": 12444 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " (comprehensive rules):",
+                    "position": {
+                      "start": { "line": 384, "column": 17, "offset": 12444 },
+                      "end": { "line": 384, "column": 40, "offset": 12467 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 384, "column": 3, "offset": 12430 },
+                  "end": { "line": 384, "column": 40, "offset": 12467 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 384, "column": 1, "offset": 12428 },
+              "end": { "line": 384, "column": 40, "offset": 12467 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 384, "column": 1, "offset": 12428 },
+          "end": { "line": 384, "column": 40, "offset": 12467 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "json",
+        "meta": "filename=\"package.json\"",
+        "value": "{\n  \"scripts\": {\n    \"lint\": \"eslint\",\n    \"lint:fix\": \"eslint --fix\"\n  }\n}",
+        "position": {
+          "start": { "line": 386, "column": 1, "offset": 12469 },
+          "end": { "line": 393, "column": 4, "offset": 12580 }
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Or use ",
+                    "position": {
+                      "start": { "line": 395, "column": 3, "offset": 12584 },
+                      "end": { "line": 395, "column": 10, "offset": 12591 }
+                    }
+                  },
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Biome",
+                        "position": {
+                          "start": {
+                            "line": 395,
+                            "column": 12,
+                            "offset": 12593
+                          },
+                          "end": { "line": 395, "column": 17, "offset": 12598 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 395, "column": 10, "offset": 12591 },
+                      "end": { "line": 395, "column": 19, "offset": 12600 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " (fast linter + formatter):",
+                    "position": {
+                      "start": { "line": 395, "column": 19, "offset": 12600 },
+                      "end": { "line": 395, "column": 46, "offset": 12627 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 395, "column": 3, "offset": 12584 },
+                  "end": { "line": 395, "column": 46, "offset": 12627 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 395, "column": 1, "offset": 12582 },
+              "end": { "line": 395, "column": 46, "offset": 12627 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 395, "column": 1, "offset": 12582 },
+          "end": { "line": 395, "column": 46, "offset": 12627 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "json",
+        "meta": "filename=\"package.json\"",
+        "value": "{\n  \"scripts\": {\n    \"lint\": \"biome check\",\n    \"format\": \"biome format --write\"\n  }\n}",
+        "position": {
+          "start": { "line": 397, "column": 1, "offset": 12629 },
+          "end": { "line": 404, "column": 4, "offset": 12751 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "If your project previously used ",
+            "position": {
+              "start": { "line": 406, "column": 1, "offset": 12753 },
+              "end": { "line": 406, "column": 33, "offset": 12785 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "next lint",
+            "position": {
+              "start": { "line": 406, "column": 33, "offset": 12785 },
+              "end": { "line": 406, "column": 44, "offset": 12796 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", migrate your scripts to the ESLint CLI with the codemod:",
+            "position": {
+              "start": { "line": 406, "column": 44, "offset": 12796 },
+              "end": { "line": 406, "column": 102, "offset": 12854 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 406, "column": 1, "offset": 12753 },
+          "end": { "line": 406, "column": 102, "offset": 12854 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "filename=\"Terminal\"",
+        "value": "npx @next/codemod@canary next-lint-to-eslint-cli .",
+        "position": {
+          "start": { "line": 408, "column": 1, "offset": 12856 },
+          "end": { "line": 410, "column": 4, "offset": 12938 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "If you use ESLint, create an explicit config (recommended ",
+            "position": {
+              "start": { "line": 412, "column": 1, "offset": 12940 },
+              "end": { "line": 412, "column": 59, "offset": 12998 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "eslint.config.mjs",
+            "position": {
+              "start": { "line": 412, "column": 59, "offset": 12998 },
+              "end": { "line": 412, "column": 78, "offset": 13017 }
+            }
+          },
+          {
+            "type": "text",
+            "value": "). ESLint supports both ",
+            "position": {
+              "start": { "line": 412, "column": 78, "offset": 13017 },
+              "end": { "line": 412, "column": 102, "offset": 13041 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "https://eslint.org/docs/latest/use/configure/configuration-files#configuring-eslint",
+            "children": [
+              {
+                "type": "text",
+                "value": "the legacy ",
+                "position": {
+                  "start": { "line": 412, "column": 103, "offset": 13042 },
+                  "end": { "line": 412, "column": 114, "offset": 13053 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": ".eslintrc.*",
+                "position": {
+                  "start": { "line": 412, "column": 114, "offset": 13053 },
+                  "end": { "line": 412, "column": 127, "offset": 13066 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " and the newer ",
+                "position": {
+                  "start": { "line": 412, "column": 127, "offset": 13066 },
+                  "end": { "line": 412, "column": 142, "offset": 13081 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "eslint.config.mjs",
+                "position": {
+                  "start": { "line": 412, "column": 142, "offset": 13081 },
+                  "end": { "line": 412, "column": 161, "offset": 13100 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " formats",
+                "position": {
+                  "start": { "line": 412, "column": 161, "offset": 13100 },
+                  "end": { "line": 412, "column": 169, "offset": 13108 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 412, "column": 102, "offset": 13041 },
+              "end": { "line": 412, "column": 255, "offset": 13194 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". See the ",
+            "position": {
+              "start": { "line": 412, "column": 255, "offset": 13194 },
+              "end": { "line": 412, "column": 265, "offset": 13204 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/api-reference/config/eslint#with-core-web-vitals",
+            "children": [
+              {
+                "type": "text",
+                "value": "ESLint API reference",
+                "position": {
+                  "start": { "line": 412, "column": 266, "offset": 13205 },
+                  "end": { "line": 412, "column": 286, "offset": 13225 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 412, "column": 265, "offset": 13204 },
+              "end": { "line": 412, "column": 347, "offset": 13286 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " for a recommended setup.",
+            "position": {
+              "start": { "line": 412, "column": 347, "offset": 13286 },
+              "end": { "line": 412, "column": 372, "offset": 13311 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 412, "column": 1, "offset": 12940 },
+          "end": { "line": 412, "column": 372, "offset": 13311 }
+        }
+      },
+      {
+        "type": "blockquote",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Good to know",
+                    "position": {
+                      "start": { "line": 414, "column": 5, "offset": 13317 },
+                      "end": { "line": 414, "column": 17, "offset": 13329 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 414, "column": 3, "offset": 13315 },
+                  "end": { "line": 414, "column": 19, "offset": 13331 }
+                }
+              },
+              {
+                "type": "text",
+                "value": ": Starting with Next.js 16, ",
+                "position": {
+                  "start": { "line": 414, "column": 19, "offset": 13331 },
+                  "end": { "line": 414, "column": 47, "offset": 13359 }
+                }
+              },
+              {
+                "type": "inlineCode",
+                "value": "next build",
+                "position": {
+                  "start": { "line": 414, "column": 47, "offset": 13359 },
+                  "end": { "line": 414, "column": 59, "offset": 13371 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " no longer runs the linter automatically. Instead, you can run your linter through NPM scripts.",
+                "position": {
+                  "start": { "line": 414, "column": 59, "offset": 13371 },
+                  "end": { "line": 414, "column": 154, "offset": 13466 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 414, "column": 3, "offset": 13315 },
+              "end": { "line": 414, "column": 154, "offset": 13466 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 414, "column": 1, "offset": 13313 },
+          "end": { "line": 414, "column": 154, "offset": 13466 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "See the ",
+            "position": {
+              "start": { "line": 416, "column": 1, "offset": 13468 },
+              "end": { "line": 416, "column": 9, "offset": 13476 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/api-reference/config/eslint",
+            "children": [
+              {
+                "type": "text",
+                "value": "ESLint Plugin",
+                "position": {
+                  "start": { "line": 416, "column": 10, "offset": 13477 },
+                  "end": { "line": 416, "column": 23, "offset": 13490 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 416, "column": 9, "offset": 13476 },
+              "end": { "line": 416, "column": 63, "offset": 13530 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " page for more information.",
+            "position": {
+              "start": { "line": 416, "column": 63, "offset": 13530 },
+              "end": { "line": 416, "column": 90, "offset": 13557 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 416, "column": 1, "offset": 13468 },
+          "end": { "line": 416, "column": 90, "offset": 13557 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Set up Absolute Imports and Module Path Aliases",
+    "level": 2,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Next.js has in-built support for the ",
+            "position": {
+              "start": { "line": 420, "column": 1, "offset": 13611 },
+              "end": { "line": 420, "column": 38, "offset": 13648 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "\"paths\"",
+            "position": {
+              "start": { "line": 420, "column": 38, "offset": 13648 },
+              "end": { "line": 420, "column": 47, "offset": 13657 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and ",
+            "position": {
+              "start": { "line": 420, "column": 47, "offset": 13657 },
+              "end": { "line": 420, "column": 52, "offset": 13662 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "\"baseUrl\"",
+            "position": {
+              "start": { "line": 420, "column": 52, "offset": 13662 },
+              "end": { "line": 420, "column": 63, "offset": 13673 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " options of ",
+            "position": {
+              "start": { "line": 420, "column": 63, "offset": 13673 },
+              "end": { "line": 420, "column": 75, "offset": 13685 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "tsconfig.json",
+            "position": {
+              "start": { "line": 420, "column": 75, "offset": 13685 },
+              "end": { "line": 420, "column": 90, "offset": 13700 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and ",
+            "position": {
+              "start": { "line": 420, "column": 90, "offset": 13700 },
+              "end": { "line": 420, "column": 95, "offset": 13705 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "jsconfig.json",
+            "position": {
+              "start": { "line": 420, "column": 95, "offset": 13705 },
+              "end": { "line": 420, "column": 110, "offset": 13720 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " files.",
+            "position": {
+              "start": { "line": 420, "column": 110, "offset": 13720 },
+              "end": { "line": 420, "column": 117, "offset": 13727 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 420, "column": 1, "offset": 13611 },
+          "end": { "line": 420, "column": 117, "offset": 13727 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "These options allow you to alias project directories to absolute paths, making it easier and cleaner to import modules. For example:",
+            "position": {
+              "start": { "line": 422, "column": 1, "offset": 13729 },
+              "end": { "line": 422, "column": 133, "offset": 13861 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 422, "column": 1, "offset": 13729 },
+          "end": { "line": 422, "column": 133, "offset": 13861 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "jsx",
+        "meta": null,
+        "value": "// Before\nimport { Button } from '../../../components/button'\n\n// After\nimport { Button } from '@/components/button'",
+        "position": {
+          "start": { "line": 424, "column": 1, "offset": 13863 },
+          "end": { "line": 430, "column": 4, "offset": 13990 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "To configure absolute imports, add the ",
+            "position": {
+              "start": { "line": 432, "column": 1, "offset": 13992 },
+              "end": { "line": 432, "column": 40, "offset": 14031 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "baseUrl",
+            "position": {
+              "start": { "line": 432, "column": 40, "offset": 14031 },
+              "end": { "line": 432, "column": 49, "offset": 14040 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " configuration option to your ",
+            "position": {
+              "start": { "line": 432, "column": 49, "offset": 14040 },
+              "end": { "line": 432, "column": 79, "offset": 14070 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "tsconfig.json",
+            "position": {
+              "start": { "line": 432, "column": 79, "offset": 14070 },
+              "end": { "line": 432, "column": 94, "offset": 14085 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " or ",
+            "position": {
+              "start": { "line": 432, "column": 94, "offset": 14085 },
+              "end": { "line": 432, "column": 98, "offset": 14089 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "jsconfig.json",
+            "position": {
+              "start": { "line": 432, "column": 98, "offset": 14089 },
+              "end": { "line": 432, "column": 113, "offset": 14104 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " file. For example:",
+            "position": {
+              "start": { "line": 432, "column": 113, "offset": 14104 },
+              "end": { "line": 432, "column": 132, "offset": 14123 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 432, "column": 1, "offset": 13992 },
+          "end": { "line": 432, "column": 132, "offset": 14123 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "json",
+        "meta": "filename=\"tsconfig.json or jsconfig.json\"",
+        "value": "{\n  \"compilerOptions\": {\n    \"baseUrl\": \"src/\"\n  }\n}",
+        "position": {
+          "start": { "line": 434, "column": 1, "offset": 14125 },
+          "end": { "line": 440, "column": 4, "offset": 14231 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "In addition to configuring the ",
+            "position": {
+              "start": { "line": 442, "column": 1, "offset": 14233 },
+              "end": { "line": 442, "column": 32, "offset": 14264 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "baseUrl",
+            "position": {
+              "start": { "line": 442, "column": 32, "offset": 14264 },
+              "end": { "line": 442, "column": 41, "offset": 14273 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " path, you can use the ",
+            "position": {
+              "start": { "line": 442, "column": 41, "offset": 14273 },
+              "end": { "line": 442, "column": 64, "offset": 14296 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "\"paths\"",
+            "position": {
+              "start": { "line": 442, "column": 64, "offset": 14296 },
+              "end": { "line": 442, "column": 73, "offset": 14305 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " option to ",
+            "position": {
+              "start": { "line": 442, "column": 73, "offset": 14305 },
+              "end": { "line": 442, "column": 84, "offset": 14316 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "\"alias\"",
+            "position": {
+              "start": { "line": 442, "column": 84, "offset": 14316 },
+              "end": { "line": 442, "column": 93, "offset": 14325 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " module paths.",
+            "position": {
+              "start": { "line": 442, "column": 93, "offset": 14325 },
+              "end": { "line": 442, "column": 107, "offset": 14339 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 442, "column": 1, "offset": 14233 },
+          "end": { "line": 442, "column": 107, "offset": 14339 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "For example, the following configuration maps ",
+            "position": {
+              "start": { "line": 444, "column": 1, "offset": 14341 },
+              "end": { "line": 444, "column": 47, "offset": 14387 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "@/components/*",
+            "position": {
+              "start": { "line": 444, "column": 47, "offset": 14387 },
+              "end": { "line": 444, "column": 63, "offset": 14403 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " to ",
+            "position": {
+              "start": { "line": 444, "column": 63, "offset": 14403 },
+              "end": { "line": 444, "column": 67, "offset": 14407 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "components/*",
+            "position": {
+              "start": { "line": 444, "column": 67, "offset": 14407 },
+              "end": { "line": 444, "column": 81, "offset": 14421 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ":",
+            "position": {
+              "start": { "line": 444, "column": 81, "offset": 14421 },
+              "end": { "line": 444, "column": 82, "offset": 14422 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 444, "column": 1, "offset": 14341 },
+          "end": { "line": 444, "column": 82, "offset": 14422 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "json",
+        "meta": "filename=\"tsconfig.json or jsconfig.json\"",
+        "value": "{\n  \"compilerOptions\": {\n    \"baseUrl\": \"src/\",\n    \"paths\": {\n      \"@/styles/*\": [\"styles/*\"],\n      \"@/components/*\": [\"components/*\"]\n    }\n  }\n}",
+        "position": {
+          "start": { "line": 446, "column": 1, "offset": 14424 },
+          "end": { "line": 456, "column": 4, "offset": 14627 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Each of the ",
+            "position": {
+              "start": { "line": 458, "column": 1, "offset": 14629 },
+              "end": { "line": 458, "column": 13, "offset": 14641 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "\"paths\"",
+            "position": {
+              "start": { "line": 458, "column": 13, "offset": 14641 },
+              "end": { "line": 458, "column": 22, "offset": 14650 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " are relative to the ",
+            "position": {
+              "start": { "line": 458, "column": 22, "offset": 14650 },
+              "end": { "line": 458, "column": 43, "offset": 14671 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "baseUrl",
+            "position": {
+              "start": { "line": 458, "column": 43, "offset": 14671 },
+              "end": { "line": 458, "column": 52, "offset": 14680 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " location.",
+            "position": {
+              "start": { "line": 458, "column": 52, "offset": 14680 },
+              "end": { "line": 458, "column": 62, "offset": 14690 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 458, "column": 1, "offset": 14629 },
+          "end": { "line": 458, "column": 62, "offset": 14690 }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Upgrade your Next.js app",
+    "level": 2,
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Keep your Next.js version up to date. Each release ships security patches, bug fixes, and performance optimizations alongside new features, and staying current keeps every individual upgrade small. Run the ",
+            "position": {
+              "start": { "line": 462, "column": 1, "offset": 14721 },
+              "end": { "line": 462, "column": 207, "offset": 14927 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "upgrade",
+            "position": {
+              "start": { "line": 462, "column": 207, "offset": 14927 },
+              "end": { "line": 462, "column": 216, "offset": 14936 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " command:",
+            "position": {
+              "start": { "line": 462, "column": 216, "offset": 14936 },
+              "end": { "line": 462, "column": 225, "offset": 14945 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 462, "column": 1, "offset": 14721 },
+          "end": { "line": 462, "column": 225, "offset": 14945 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"pnpm\"",
+        "value": "pnpm next upgrade",
+        "position": {
+          "start": { "line": 464, "column": 1, "offset": 14947 },
+          "end": { "line": 466, "column": 4, "offset": 14991 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"npm\"",
+        "value": "npx next upgrade",
+        "position": {
+          "start": { "line": 468, "column": 1, "offset": 14993 },
+          "end": { "line": 470, "column": 4, "offset": 15035 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"yarn\"",
+        "value": "yarn next upgrade",
+        "position": {
+          "start": { "line": 472, "column": 1, "offset": 15037 },
+          "end": { "line": 474, "column": 4, "offset": 15081 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "bash",
+        "meta": "package=\"bun\"",
+        "value": "bunx next upgrade",
+        "position": {
+          "start": { "line": 476, "column": 1, "offset": 15083 },
+          "end": { "line": 478, "column": 4, "offset": 15126 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Upgrading also updates the documentation bundled inside the ",
+            "position": {
+              "start": { "line": 480, "column": 1, "offset": 15128 },
+              "end": { "line": 480, "column": 61, "offset": 15188 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "next",
+            "position": {
+              "start": { "line": 480, "column": 61, "offset": 15188 },
+              "end": { "line": 480, "column": 67, "offset": 15194 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " package at ",
+            "position": {
+              "start": { "line": 480, "column": 67, "offset": 15194 },
+              "end": { "line": 480, "column": 79, "offset": 15206 }
+            }
+          },
+          {
+            "type": "inlineCode",
+            "value": "node_modules/next/dist/docs/",
+            "position": {
+              "start": { "line": 480, "column": 79, "offset": 15206 },
+              "end": { "line": 480, "column": 109, "offset": 15236 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". New features arrive with their docs, and existing pages pick up new guidance and pitfalls discovered along the way. ",
+            "position": {
+              "start": { "line": 480, "column": 109, "offset": 15236 },
+              "end": { "line": 480, "column": 227, "offset": 15354 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/guides/ai-agents",
+            "children": [
+              {
+                "type": "text",
+                "value": "AI coding agents",
+                "position": {
+                  "start": { "line": 480, "column": 228, "offset": 15355 },
+                  "end": { "line": 480, "column": 244, "offset": 15371 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 480, "column": 227, "offset": 15354 },
+              "end": { "line": 480, "column": 273, "offset": 15400 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " in your project then work from the version you have installed rather than their training data. After an upgrade, you can prompt your agent to catch up:",
+            "position": {
+              "start": { "line": 480, "column": 273, "offset": 15400 },
+              "end": { "line": 480, "column": 425, "offset": 15552 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 480, "column": 1, "offset": 15128 },
+          "end": { "line": 480, "column": 425, "offset": 15552 }
+        }
+      },
+      {
+        "type": "code",
+        "lang": "prompt",
+        "meta": null,
+        "value": "Let's get our Next.js knowledge up to speed, and give me a summary of what's new for you",
+        "position": {
+          "start": { "line": 482, "column": 1, "offset": 15554 },
+          "end": { "line": 484, "column": 4, "offset": 15656 }
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "See ",
+            "position": {
+              "start": { "line": 486, "column": 1, "offset": 15658 },
+              "end": { "line": 486, "column": 5, "offset": 15662 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "/docs/app/getting-started/upgrading",
+            "children": [
+              {
+                "type": "text",
+                "value": "Upgrading",
+                "position": {
+                  "start": { "line": 486, "column": 6, "offset": 15663 },
+                  "end": { "line": 486, "column": 15, "offset": 15672 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 486, "column": 5, "offset": 15662 },
+              "end": { "line": 486, "column": 53, "offset": 15710 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " for version guides and manual upgrade steps, or the ",
+            "position": {
+              "start": { "line": 486, "column": 53, "offset": 15710 },
+              "end": { "line": 486, "column": 106, "offset": 15763 }
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "https://preview.nextjs.org",
+            "children": [
+              {
+                "type": "text",
+                "value": "preview docs",
+                "position": {
+                  "start": { "line": 486, "column": 107, "offset": 15764 },
+                  "end": { "line": 486, "column": 119, "offset": 15776 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 486, "column": 106, "offset": 15763 },
+              "end": { "line": 486, "column": 148, "offset": 15805 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " to explore features before they ship in a stable version.",
+            "position": {
+              "start": { "line": 486, "column": 148, "offset": 15805 },
+              "end": { "line": 486, "column": 206, "offset": 15863 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 486, "column": 1, "offset": 15658 },
+          "end": { "line": 486, "column": 206, "offset": 15863 }
+        }
+      }
+    ]
+  }
+]
